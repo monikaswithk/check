@@ -2,10 +2,5 @@ check50:
   checks:
     fahrenheit:
       - run: python3 fahrenheit.py
-        stdin: 0
         stdout: 5
-        exit: 0
-      - run: python3 fahrenheit.py
-        stdin: 7
-        stdout: 12
         exit: 0
