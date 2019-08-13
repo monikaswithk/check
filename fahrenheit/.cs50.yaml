@@ -1,0 +1,11 @@
+check50:
+  checks:
+    fahrenheit:
+      - run: python3 fahrenheit
+        stdin: 0
+        stdout: 32.0
+        exit: 0
+      - run: python3 fahrenheit
+        stdin: 5
+        stdout: 37.0
+        exit: 0
